@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/PortafolioJN" element={<Loading />} />
+        <Route path="/" element={<Loading />} />
         <Route path="/home" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
